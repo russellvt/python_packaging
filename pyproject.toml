@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "packaging_geekoncall"
+version = "0.0.1"
+authors = [
+    { name="Russell M, Van Tassell", email="russell@geekoncall.net" },
+]
+description = "A small example package to experiment with Python builds and methods"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/russellvt/python_packaging"
+"Bug Tracker" = "https://github.com/russellvt/python_packaging/issues"
