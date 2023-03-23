@@ -7,7 +7,7 @@ Initial environmental setup. This only needs to be done once.
 
     python3 -m venv venv-packaging
     . ./venv-packaging/bin/activate
-    pip install pip setuptools wheel --upgrade
+    pip install build pip setuptools wheel --upgrade
 
 
 ## References
