@@ -1,4 +1,7 @@
 # Python Packaging and Workflows
+
+![PyLint](https://github.com/russellvt/python_packaging/actions/workflows/pylint.yml/badge.svg)
+
 Tests and Examples of Python Packaging and Automation
 
 
@@ -22,3 +25,4 @@ GitHub also delivers this workflow in an automated fashion.
 References used during the creation and development of this module.
 
 * [Packaging Python Projects](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
+* [GitHub Status Badges](https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/adding-a-workflow-status-badge)
