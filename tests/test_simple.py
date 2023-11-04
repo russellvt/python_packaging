@@ -1,6 +1,6 @@
-# the inclusion of the tests module is not meant to offer best practices for
-# testing in general, but rather to support the `find_packages` example in
-# setup.py that excludes installing the "tests" package
+'''
+Simple Test Example (placeholder)
+'''
 
 import unittest
 
@@ -8,8 +8,10 @@ from packaging_geekoncall.example import add_one
 
 
 class TestSimple(unittest.TestCase):
+    '''Simple Example Tests'''
 
     def test_add_one(self):
+        '''Test add_one Example'''
         self.assertEqual(add_one(5), 6)
 
 
