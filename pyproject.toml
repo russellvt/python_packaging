@@ -22,3 +22,11 @@ classifiers = [
 [project.urls]
 "Homepage" = "https://github.com/russellvt/python_packaging"
 "Bug Tracker" = "https://github.com/russellvt/python_packaging/issues"
+
+
+# https://docs.pytest.org/en/7.2.x/explanation/goodpractices.html#test-discovery
+[tool.pytest.ini_options]
+pythonpath = "src"
+addopts = [
+    "--import-mode=importlib",
+]
