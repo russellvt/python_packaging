@@ -1,6 +1,7 @@
 # Python Packaging and Workflows
 
 ![PyLint](https://github.com/russellvt/python_packaging/actions/workflows/pylint.yml/badge.svg)
+![Python](https://github.com/russellvt/python_packaging/actions/workflows/python-app.yml/badge.svg)
 
 Tests and Examples of Python Packaging and Automation
 
